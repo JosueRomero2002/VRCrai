@@ -23,7 +23,8 @@ public class Sound : MonoBehaviour
     }
 
     public void playAudio() {
-        if(audioSource.isPlaying)
+       
+        if (audioSource.isPlaying)
         {
             audioSource.Stop();
             btn.image.sprite = iconPlay;
